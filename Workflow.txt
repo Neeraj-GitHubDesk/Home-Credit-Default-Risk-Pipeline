@@ -1,6 +1,9 @@
-1. Create a workflow.txt file for mapping the flow of your project.
-2. Create a virtual environment and check .gitignore file in case if something needs to be added.
-3. Use conda env export > environment.yml to make sure the environment is saved in the environment.yml file
-4. Create directories and files for different sections by running init_structure.py file.
-5. Install required dependencies by running requirements.txt file as : pip install -r requirements.txt
-6. 
+                                        Set Up Phase
+1. Create a "workflow.txt" file for mapping the flow of your project.
+2. Create a virtual environment, activate it and check .gitignore file in case if something needs to be added.
+                    conda create -n HCDR python=3.10 -y
+                    conda activate HCDR
+3. Use "conda env export > environment.yml" to save env for sharing the full environment setup
+4. Create directories and files for different phases of this project by running init_structure.py file.
+5. Install required dependencies by running "requirements.txt" file as : "pip install -r requirements.txt"
+6. Run "pip freeze > requirements.txt" to save all the packages with their version
