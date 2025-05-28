@@ -1,5 +1,6 @@
 1. Create a workflow.txt file for mapping the flow of your project.
 2. Create a virtual environment and check .gitignore file in case if something needs to be added.
-3. Create directories and files for different sections by running init_structure.py file.
-4. Install required dependencies by running requirements.txt file as : pip install -r requirements.txt
-5. 
+3. Use conda env export > environment.yml to make sure the environment is saved in the environment.yml file
+4. Create directories and files for different sections by running init_structure.py file.
+5. Install required dependencies by running requirements.txt file as : pip install -r requirements.txt
+6. 
