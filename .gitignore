@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# OS/Editor-specific
+Thumbs.db
+.vscode/
+
+# Conda
+*.conda
+*.yaml
+*.yml
+!environment.yml
+
+# MLOps / DVC
+logs/
+data/
+artifacts/
