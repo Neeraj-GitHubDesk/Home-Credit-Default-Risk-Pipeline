@@ -7,3 +7,6 @@
 4. Create directories and files for different phases of this project by running init_structure.py file.
 5. Install required dependencies by running "requirements.txt" file as : "pip install -r requirements.txt"
 6. Run "pip freeze > requirements.txt" to save all the packages with their version
+
+                                        Logging and Exception 
+1. 
