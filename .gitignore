@@ -185,9 +185,11 @@ Thumbs.db
 
 # MLOps / DVC
 logs/
-data/
+data
 artifacts/
+dvc_files
 
 # Files
 notebooks/practice.py
 notebooks/zip_file_conversion.py
+/data
