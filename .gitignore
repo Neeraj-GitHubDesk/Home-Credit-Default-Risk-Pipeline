@@ -187,3 +187,7 @@ Thumbs.db
 logs/
 data/
 artifacts/
+
+# Files
+notebooks/practice.py
+notebooks/zip_file_conversion.py
